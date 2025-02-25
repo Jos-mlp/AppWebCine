@@ -65,3 +65,8 @@ npm run lint → Ejecuta el linter para verificar errores de código.
 │── package.json    # Configuración del proyecto y dependencias
 │── vite.config.js  # Configuración de Vite
 └── README.md       # Documentación del proyecto
+
+
+#Instalar
+npm install react-icons
+npm install react-router-dom

@@ -36,7 +36,7 @@ VITE vX.X.X  ready in Xms
 Abre tu navegador y visita http://localhost:5173/ para ver la aplicación en funcionamiento.
 
 
-#### 🛠️ Scripts útiles
+### 🛠️ Scripts útiles
 
 Aquí algunos comandos adicionales que puedes usar:
 

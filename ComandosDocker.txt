@@ -1,0 +1,23 @@
+1. docker-compose up --build
+   - Levanta todos los servicios definidos en el archivo `docker-compose.yml` y reconstruye las imágenes si es necesario.
+
+2. docker-compose stop
+   - Detiene los contenedores, pero no elimina contenedores, redes ni volúmenes. Útil para pausas sin borrar datos.
+
+3. docker-compose down
+   - Detiene y elimina todos los contenedores, redes y volúmenes definidos en el archivo `docker-compose.yml`. 
+
+4. docker-compose restart
+   - Reinicia todos los servicios definidos en `docker-compose.yml`. No elimina contenedores ni redes.
+
+5. docker-compose logs -f
+   - Muestra los logs de todos los servicios de forma continua (en tiempo real).
+
+6. docker-compose logs -f frontend
+   - Muestra los logs del servicio `frontend` de forma continua (en tiempo real).
+
+7. docker-compose build frontend
+   - Reconstruye la imagen para el servicio `frontend`. Útil cuando has realizado cambios en el Dockerfile o dependencias.
+
+8. docker-compose rm
+   - Elimina los contenedores detenidos. Útil para liberar espacio o limpiar los contenedores que ya no se utilizan.

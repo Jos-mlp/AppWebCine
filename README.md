@@ -20,6 +20,7 @@ Sigue estos pasos para clonar el repositorio y ejecutar el proyecto localmente:
 Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 ```
 npm install
+
 ```
 #### 3️⃣ Ejecutar el servidor de desarrollo
 
